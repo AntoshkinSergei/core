@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DecisionMapper.Data.Interfaces\DecisionMapper.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Entities\DecisionMapper.Entities.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Infrastructure\DecisionMapper.Infrastructure.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Services.Interfaces\DecisionMapper.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
