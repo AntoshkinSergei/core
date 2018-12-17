@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DecisionMapper.Data.Interfaces\DecisionMapper.Data.Interfaces.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Data\DecisionMapper.Data.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Entities\DecisionMapper.Entities.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Services.Interfaces\DecisionMapper.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\DecisionMapper.Services\DecisionMapper.Services.csproj" />
+  </ItemGroup>
+
+</Project>
